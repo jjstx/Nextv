@@ -171,21 +171,7 @@ export function Navbar() {
           {/* Minimal search for navbar if needed */}
         </div>
 
-        <div className="flex items-center gap-3">
-          <Link
-            href="https://github.com/SeqCrafter/NextTV"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="flex items-center justify-center size-10 rounded-full hover:bg-gray-100 text-gray-500 hover:text-gray-900 transition-colors btn-press"
-          >
-            <SimpleIconsGithub
-              aria-hidden="true"
-              className="size-5"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            />
-          </Link>
+
 
           {/* Direct Play Dropdown */}
           <div className="static md:relative" ref={directPlayRef}>
