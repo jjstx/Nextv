@@ -171,7 +171,15 @@ export function Navbar() {
           {/* Minimal search for navbar if needed */}
         </div>
 
+        <div className="flex items-center gap-3">
 
+            <SimpleIconsGithub
+              aria-hidden="true"
+              className="size-5"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            />
+          </Link>
 
           {/* Direct Play Dropdown */}
           <div className="static md:relative" ref={directPlayRef}>
