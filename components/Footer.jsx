@@ -10,29 +10,6 @@ export function Footer() {
           <p className="text-gray-500 text-sm font-medium">
             © 2026 NextTV. 开源项目。
           </p>
-        </div>
-        <div className="flex gap-6">
-          <a
-            className="text-gray-500 hover:text-gray-900 text-sm transition-colors"
-            href="mailto:sdupan2015@gmail.com"
-          >
-            联系作者
-          </a>
-          <a
-            className="text-gray-500 hover:text-gray-900 text-sm transition-colors"
-            href="https://github.com/SeqCrafter/NextTV/issues"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            提交问题
-          </a>
-          <Link
-            className="text-gray-500 hover:text-gray-900 text-sm transition-colors"
-            href="/help"
-          >
-            帮助中心
-          </Link>
-        </div>
       </div>
     </footer>
   );
