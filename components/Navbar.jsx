@@ -172,7 +172,9 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
+          <Link
 
+          >
             <SimpleIconsGithub
               aria-hidden="true"
               className="size-5"
