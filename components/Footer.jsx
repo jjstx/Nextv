@@ -10,6 +10,9 @@ export function Footer() {
           <p className="text-gray-500 text-sm font-medium">
             © 2026 NextTV. 开源项目。
           </p>
+        </div>
+        <div className="flex gap-6">
+        </div>
       </div>
     </footer>
   );
